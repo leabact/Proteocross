@@ -1,7 +1,7 @@
 # Proteocross
 Proteocross - proteomics data treatment automation
 
-This app is made to help you (and your colleagues) handle the results from two expriments of protein identification : cutting and digestion of SDS-PAGE gel bands after migration, and pull-down (capture and enrichment of target.s protein.s). Depending of who you work with, you might want to reduce the Excel use to a minimum : in that case, this app could give you a hand !
+This app is made to help you (and your colleagues) handle the results from two expriments of protein identification : cutting and digestion of SDS-PAGE gel bands after migration, and pull-down (capture and enrichment of target.s protein.s). You might want to reduce the Excel use to a minimum : in that case, this app could give you a hand !
 
 ### This code will help you if :
 - You cut several bands from your protein migration gel and want to know if they share proteins of interest
