@@ -108,7 +108,7 @@ The code is divided in three python files :
     - app_def.py 
         contains funtions necessary to the "menu"'s buttons, can be copy / pasted to the main code without many problems
     - auto_prot_def.py
-        contains all the functions to automate the given proteomics data treatment. There is no "__init__", as I have no idea what is it or how to do it. Functions are called in auto_prot_app to pass prints as tkinter labels. 
+        contains all the functions to automate the given proteomics data treatment. Functions are called in auto_prot_app to pass prints as tkinter labels. 
 
 The logo is encoded in UTF-8 and display as such. 
 '''
