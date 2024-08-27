@@ -1,19 +1,19 @@
 # Proteocross
 Proteocross - proteomics data treatment automation
 
-This app is made to help you (and your colleagues) handle the results from two expriments of protein identification : cutting and digestion of SDS-PAGE gel bands after migration, and pull-down (capture and enrichment of target.s protein.s). You might want to reduce the Excel use to a minimum : in that case, this app could give you a hand !
+This app is made to help you (and your colleagues) handle the results from two expriments of protein identification : cutting and digestion of PAGE gel bands, and pull-down (capture and enrichment of target.s protein.s). You might want to reduce the Excel use to a minimum : in that case, this app could give you a hand !
 
 ### This code will help you if :
-- You cut several bands from your protein migration gel and want to know if they share proteins of interest
-- You made a pull-down to enrich your protein.s of interest and want to know if they match the ones identified in the cut band.s
-
-It crosses the results obtained from the identification of proteins from the two techniques.
+- You cut several bands from your protein migration gel and want to reamove contaminant, apply molecular weight filters and know if they share proteins of interest
+- You made an purification experiment to enrich your protein.s of interest and want to filter and generate volcano plots easily 
+- You did both and want to know if the purified proteins match the ones identified in the cut band.s
+- You made several purification experiment and want to highlight shared proteins
 
 ### About the band.s
 - You will be asked how many bands were cut and to select as many excel file.s containing the identified proteins
 - For each band, you will have to enter the minimal and maximal molecular weight of the protein of interest
 
-### About the pull-down
+### About the purifitcation
 - You will be asked to enter the lowest ratio that you consider significant for your experiment
 - A protein will be considered "of interest" if its ratio is > than the one you entered and its p-value ≤ 0.05
 
